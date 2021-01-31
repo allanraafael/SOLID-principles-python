@@ -1,4 +1,4 @@
-from connection.create_table_client import create_table_client
+from SOLID_principles.connection.create_table_client import create_table_client
 import sqlite3
 
 
