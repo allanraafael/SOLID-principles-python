@@ -1,0 +1,14 @@
+cachetools==4.2.1
+certifi==2020.12.5
+chardet==4.0.0
+cssselect==1.1.0
+cssutils==1.0.2
+environs==9.3.0
+idna==2.10
+lxml==4.6.2
+marshmallow==3.10.0
+premailer==3.7.0
+python-dotenv==0.15.0
+requests==2.25.1
+urllib3==1.26.3
+yagmail==0.14.245
