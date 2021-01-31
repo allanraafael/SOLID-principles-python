@@ -1,7 +1,14 @@
+from connection.create_table_client import create_table_client
+import sqlite3
 
 
 def main():
-    pass
+    """
+    Create table client only if it doesn't exist
+    """
+
+    conn = sqlite3.connect('database.sqlite')
+    create_table_client(conn)
 
 
 if __name__ == '__main__':
