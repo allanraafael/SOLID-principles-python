@@ -6,11 +6,11 @@ from SOLID_principles.connection.create_table_client import create_table_client
 
 def main():
     """
-    Create table client only if it doesn't exist
+    Main function that runs the project
     """
 
     conn = sqlite3.connect('database.sqlite')
-    create_table_client(conn)
+    create_table_client(conn)  # Create table client only if it doesn't exist
 
     # violation_srp = ViolationSRP()
     # violation_srp.violation()

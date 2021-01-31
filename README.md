@@ -15,10 +15,18 @@ ou
 > pip install -r requirements.txt
 ```
 
-#### 2- Estando dentro do diretório raiz do projeto, configure o arquivo `.env` seguindo o modelo do arquivo `.env.exemple`, com o seguinte comando:
+#### 2- Estando no diretório raiz do projeto, configure o arquivo `.env` seguindo o modelo do arquivo `.env.exemple`, com o seguinte comando:
 
 ``` shell script
 > cp .env.exemple .env
 ```
 
 > #### Atribua valores as variáveis de credenciais AUTH_USER e AUTH_PASSWORD conforme as orientações no arquivo `.env`. Utilizar variáveis de ambiente é uma forma segura de informar credenciais já que você as informa no seu arquivo local `.env` e não diretamente no código.  
+
+#### 3- Estando no diretório raiz do projeto, você consegue executá-lo com seguinte comando:
+
+``` shell script
+> python main.py
+```
+
+Show...
